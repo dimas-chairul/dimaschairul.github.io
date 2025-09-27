@@ -1,91 +1,62 @@
-Dimas Chairul Anam
 <!DOCTYPE html>
 <html>
 <head>
-    <style>
-        body {
-            display: flex;   
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            min-height: 100vh;
-            margin: 0;
-            font-family: Arial, sans-serif;
-        }
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
 
-        img {
-            width: 150px;   
-            height: 150px;
-            border-radius: 50%; 
-            object-fit: cover;
-            margin-bottom: 20px;
-        }
+.title {
+  color: grey;
+  font-size: 18px;
+}
 
-        table {
-            border-collapse: collapse;
-            width: 50%;
-            text-align: center;
-            margin-bottom: 20px; 
-        }
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
 
-        td {
-            padding: 10px;
-        }
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
 
-        a {
-            text-decoration: none;
-            color: #000;
-            font-weight: bold;
-        }
-
-        .instagram-icon {
-            width: 40px;
-            height: 40px;
-        }
-    </style>
+button:hover, a:hover {
+  opacity: 0.7;
+}
+</style>
 </head>
 <body>
 
-    <img src="c:\Users\Windows 10\Downloads\WhatsApp Image 2025-09-27 at 12.34.32 PM.jpeg" alt="Foto Profil">
+<h2 style="text-align:center">User Profile Card</h2>
 
-    <table border="3">
-        <tr>
-          <td>Nama</td>
-          <td>:</td>
-          <td>Dimas Chairul Anam</td>
-        </tr>
-        <tr>
-          <td>NIM</td>
-          <td>:</td>
-          <td><b>102022400256</b></td>
-        </tr>
-        <tr>
-          <td>Fakultas</td>
-          <td>:</td>
-          <td><i>Rekayasa Industri</i></td>
-        </tr>
-        <tr>
-          <td>Prodi</td>
-          <td>:</td>
-          <td><u>S1 Sistem Informasi</u></td>
-        </tr>
-        <tr>
-          <td>Angkatan</td>
-          <td>:</td>
-          <td>2024</td>
-        </tr>
-        <tr>
-          <td colspan="3">
-            <a href="https://github.com" target="_self">GitHub</a> - 
-            <a href="https://telkomuniversity.ac.id" target="_blank">Telkom University</a>
-          </td>
-        </tr>
-    </table>
-
-    <a href="https://www.instagram.com/i.d1ms" target="_blank">
-        <img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" 
-             alt="Instagram" class="instagram-icon">
-    </a>
+<div class="card">
+  <img src="/w3images/team2.jpg" alt="John" style="width:100%">
+  <h1>Dimass Chairul Anam</h1>
+  <p class="title">102022400256 \ Dimas Chairul Anam \ FRI \ S1 Sistem Informasi</p>
+  <p>Telkom University</p>
+  <div style="margin: 24px 0;">
+    <a href="#"><i class="fa fa-dribbble"></i></a> 
+    <a href="#"><i class="fa fa-twitter"></i></a>  
+    <a href="#"><i class="fa fa-linkedin"></i></a>  
+    <a href="#"><i class="fa fa-facebook"></i></a> 
+  </div>
+  <p><button>Contact</button></p>
+</div>
 
 </body>
 </html>
